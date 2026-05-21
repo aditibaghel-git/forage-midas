@@ -1,6 +1,9 @@
+server:
+  port: 33400
+
 general:
   kafka-topic: trader-updates
-  
+
 spring:
   datasource:
     url: jdbc:h2:mem:midasdb
